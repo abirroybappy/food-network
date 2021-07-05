@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.tomato{
+    color: #FC8F49;
+}
+h1{
+    margin-top: 121px;
+    font-size: 71px;
+    font-weight: 900;
+}
+.ancor-button{
+    text-decoration: none;
+    background-image: linear-gradient(#FC8F49, tomato);
+    padding: 20px 46px;
+    border-radius: 36px;
+    color: white;
+    font-size: 17px;
+    box-shadow: 10px 10px 40px rgb(247 168 168);
+}
+
+.section-top-food{
+    display: flex;
+}
+.header-top-div{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.top-female{
+    width: 100%;
+}
+
+.header-p{
+    font-size: 21px;
+    font-weight: 500;
+    color: #757272;
+    margin-bottom: 66px;
+}
+
+.about-me{
+    background-image: url(image/background-1.png);
+    min-height: 600px;
+  background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.about-me-img{
+    height: 536px;
+    width: 338px;
+    position: relative;
+    top: 65px;
+    display: block;
+    margin-left: 34%;
+  
+}
+
+#aboutme-food{
+    border: 2px solid;
+    width: 100%;
+}
+
+h2{
+    font-size: 34px;
+    font-weight: 900;
+    color: #707070;
+    margin-top: 180px;
+    
+}
+
+.aboutme-contant{
+    margin-left: 24%;
+    margin-right: 10%;
+}
+
+.aboutme-contant p{ 
+    line-height: 2;
+    margin-bottom: 66px;
+}
