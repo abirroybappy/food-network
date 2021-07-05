@@ -58,6 +58,7 @@ h1{
 }
 
 #aboutme-food{
+    border: 2px solid red;
     width: 100%;
 }
 
