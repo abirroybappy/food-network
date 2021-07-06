@@ -8,17 +8,32 @@
     <title>Food Network</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="section-top-food">
+    <section class="nav-bar">
+        <div class="logo">
+            <a href="#home">Food Network</a>
+        </div>
+        <div class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#myrecipies">My Recipies</a>
+            <a href="">Contract Us</a>
+
+        </div>
+
+    </section>
+
+
+    <section class="section-top-food" id="home">
         <div class="header-top-div">
             <h1><span class="tomato">Skip</span> The Diet, <br> Just Eat Healthy <br> With food Network</h1>
             <p class="header-p">Imagine you don't need a diet because we provide <br> healthy and delicious food for
                 you!</p>
-            <a class="ancor-button" href="facebook.com">Order Food</a>
+            <a class="ancor-button" href="https://www.facebook.com/abirroybappy6">Order Food</a>
         </div>
 
         <div class="header-top-div">
@@ -26,22 +41,98 @@
         </div>
     </section>
 
-    <section class="about-me">
+    <section class="about-me" id="aboutme">
         <div class="header-top-div" id="aboutme-food">
             <img class="about-me-img" src="image/female-2.png" alt="">
         </div>
 
         <div id="aboutme-food" class="aboutme-contant">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur mollitia aliquid officiis minus minima
-                eum, porro recusandae tempore, quos nisi ipsam illum? Facilis tempora asperiores rem nostrum,
-                repudiandae sequi eum!</p>
-            <a class="ancor-button" href="facebook.com">Order Food</a>
+            <h3 class="aboutme-h3">About Me</h3>
+            <p>A revitalizing lunch that powers a team through the workday. A warm meal that fuels students through
+                finals. The essential nutrients that help a patient recover. A game-time snack that energizes the most
+                devoted fan. We create memorable food experiences wherever people work, learn, recover and play.</p>
+            <a class="ancor-button" href="https://www.facebook.com/abirroybappy6">Contact Me</a>
         </div>
     </section>
 
-    <section>
+    <section class="item">
+        <h3 class="item-h3" id="myrecipies">My Recipies</h3>
+        <p>MyRecipes features the largest collection of professionally-tested recipes online from food <br> experts at
+            the magazines and cookbooks you love and trust--including Cooking Light, <br> Southern Living, Sunset,
+            Coastal
+            Living, Real Simple, and more.</p>
+        <div class="item-div">
+            <div class="div">
+                <img src="image/Project Cover1.jpg" alt="">
+                <h4>Mutton Tikka</h4>
+                <p>The story of how tikka masala originated is as fascinating as the dish itself. Most people strongly
+                    believe that the dish originated from the southern part of our country. Others credit the dish to
+                    migrant chefs from Britain and Bangladesh. </p>
+            </div>
 
+            <div class="div">
+                <img src="image/Project Cover2.jpg" alt="">
+                <h4>Mutton Salad</h4>
+                <p>Mutton Sausage Salad is a delicious Greek recipe which is extremely healthy and low on carbs! This
+                    Mediterranean recipe is made using smoked mutton sausage and veggies which are super-healthy like
+                    red onion, cherry tomatoes, baby corn, lettuce, yellow bell pepper and black olives. </p>
+            </div>
+
+            <div class="div">
+
+                <img src="image/Project Cover3.png" alt="">
+                <h4>Thai Soup</h4>
+                <p>Thai soups feature incredible flavors and are ultra comfortingguaranteed to lift your spirits and
+                    brighten your mood. These soups make a satisfying dinner, and they're the perfect remedy for chasing
+                    away a cold or flu bug. you'll find all of the best soup recipes right here. Sip, slurp and enjoy!
+                </p>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+    <section class="social-section">
+
+        <div class="subscribers">
+            <h2>700k</h2>
+            <p>Youtube Subscribers</p>
+        </div>
+        <div class="subscribers">
+            <h2>2.4m</h2>
+            <p>Instagram Followers</p>
+        </div>
+        <div class="subscribers">
+            <h2>10k</h2>
+            <p>Dribbble Shot Likes</p>
+        </div>
+    </section>
+
+
+    <section class="contact-us">
+        <h2>Contact</h2>
+        <div class="contact-form">
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Your Name" name="name" id="name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Your Email" name="email" id="email" required>
+
+            <label for="phone"><b>Phone</b></label>
+            <input type="number" placeholder="Enter Your Phone Number" name="phone" id="phone" required>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+            <input type="submit" value="Submit">
+        </div>
+
+    </section>
+    <section class="footer">
+        <h5><span class="tomato">FOOD</span> NETWORK</h5>
+        <p>Eat healthy to live healthy. Live healthy to live happy.</p>
 
     </section>
 
